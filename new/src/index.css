@@ -1,0 +1,112 @@
+html, body {
+  height: 80%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#root {
+  width: 500px; /* Example width */
+  height: 400px; /* Example height */
+  background-color: #f0f0f0; /* Example background */
+  text-align: center;
+  border-radius: 10px;
+  position: relative !important;
+}
+
+
+
+#root nav{
+  position:absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 0%);
+}
+
+
+#root input{
+ 
+  padding: 10px;
+  border-radius: 10px;
+  width: 80%;
+  margin: auto;
+  display: block;
+  outline: none;
+border: none;
+margin-bottom: 10px;
+}
+
+
+#root button{
+ 
+  padding: 10px;
+  border-radius: 10px;
+  width: 200px;
+  margin: auto;
+  display: block;
+  outline: none;
+  border: none;
+  margin-bottom: 10px;
+  background-color: cadetblue;
+  color: #f2f2f2;
+}
+
+
+nav {
+  background-color: cadetblue;
+  color: #f2f2f2;
+  padding: 0rem; /* Add padding for spacing */
+  display: flex; /* Flexbox for alignment */
+  justify-content: center; /* Center the navigation links */
+  align-items: center; /* Align items vertically */
+   border-radius: 8px; /* Smooth corners */
+}
+
+nav a {
+  text-decoration: none; /* Remove underline */
+  color: #f2f2f2; /* Soft light color for links */
+  font-size: 1rem; /* Adjust font size */
+  font-weight: 500; /* Semi-bold text */
+  padding: 0.5rem 1rem; /* Add padding for clickable area */
+  border-radius: 4px; /* Smooth edges for hover effect */
+  transition: all 0.3s ease; /* Smooth hover effect */
+}
+
+nav a:hover {
+  background-color: rgb(170, 226, 228); /* Light background on hover */
+  color: #fff; /* Dark text on hover */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Subtle shadow on hover */
+}
+
+ul {
+  list-style-type: none; /* Remove default bullets */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margin */
+  border: 1px solid #ddd; /* Add a light border */
+  border-radius: 8px; /* Smooth corners */
+  max-width: 500px; /* Limit the width of the list */
+  margin: 20px auto; /* Center the list on the page */
+  background-color: #f9f9f9; /* Light background color */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+li {
+  padding: 10px 15px; /* Add space inside each item */
+  border-bottom: 1px solid #ddd; /* Divider between items */
+  display: flex; /* Flexbox for better layout */
+  justify-content: space-between; /* Space between name and phone */
+  align-items: center; /* Vertically align content */
+  font-family: Arial, sans-serif; /* Clean font */
+  font-size: 1rem; /* Adjust font size */
+  color: #333; /* Text color */
+}
+
+li:last-child {
+  border-bottom: none; /* Remove divider for the last item */
+}
+
+li:hover {
+  background-color: #f0f0f0; /* Highlight on hover */
+  transition: background-color 0.3s ease; /* Smooth hover effect */
+}
